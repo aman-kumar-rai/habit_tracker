@@ -7,7 +7,10 @@
   "volta": {
     "node": "24.11.0"
   },
-  "scripts": {},
+  "scripts": {
+    "serve": "node src/index.ts",
+    "serve:dev": "node --watch src/index.ts"
+  },
   "keywords": [],
   "author": "Aman Kumar",
   "license": "ISC",
