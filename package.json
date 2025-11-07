@@ -1,7 +1,7 @@
 {
   "name": "habit_tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tracker for your habits",
   "type": "module",
   "main": "index.js",
   "volta": {
@@ -15,7 +15,9 @@
   "author": "Aman Kumar",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "custom-env": "^2.0.6",
+    "express": "^5.1.0",
+    "zod": "^4.1.12"
   },
   "devDependencies": {
     "@types/node": "^24.10.0"
