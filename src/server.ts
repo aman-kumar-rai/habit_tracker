@@ -1,11 +1,10 @@
-import express from "express";
+import express from 'express';
 
 const app = express();
 
 app.get('/health', (_, res) => {
-    res.send('I am healthy')
-})
+  res.send('I am healthy');
+});
 
-
-export { app }
+export { app };
 export default app;
