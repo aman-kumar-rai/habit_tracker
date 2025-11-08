@@ -9,7 +9,8 @@
   },
   "scripts": {
     "serve": "node src/index.ts",
-    "serve:dev": "node --watch src/index.ts"
+    "serve:dev": "node --watch src/index.ts",
+    "format": "prettier --write src/**/*.ts"
   },
   "keywords": [],
   "author": "Aman Kumar",
@@ -20,6 +21,7 @@
     "zod": "^4.1.12"
   },
   "devDependencies": {
-    "@types/node": "^24.10.0"
+    "@types/node": "^24.10.0",
+    "prettier": "^3.6.2"
   }
 }
