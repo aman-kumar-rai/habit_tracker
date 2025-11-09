@@ -43,7 +43,6 @@
     "noEmit": true,
     "noEmitOnError": true
   },
-  // File Inclusion and Exclusion
-  "include": ["src", "env.ts"],
-  "exclude": ["node_modules", "dist"]
+  // File inclusion/exclusion
+  "include": ["src", "env.ts"]
 }
