@@ -3,6 +3,10 @@
     // File Layout
     "rootDir": ".",
     "outDir": "./dist",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@routers/*": ["./src/routers/*"]
+    },
 
     "module": "nodenext",
     "target": "esnext",
@@ -32,6 +36,7 @@
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
+    "allowImportingTsExtensions": true,
     "skipLibCheck": true,
 
     // Type Checking Options

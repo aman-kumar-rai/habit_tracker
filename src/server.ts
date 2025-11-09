@@ -1,7 +1,7 @@
 import express from 'express';
-import habitRouter from './routers/habitRouter.ts';
-import authRouter from './routers/authRouter.ts';
-import userRouter from './routers/userRouter.ts';
+import habitRouter from '@routers/habitRouter.ts';
+import authRouter from '@routers/authRouter.ts';
+import userRouter from '@routers/userRouter.ts';
 
 const app = express();
 

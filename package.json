@@ -10,7 +10,9 @@
   "scripts": {
     "serve": "node src/index.ts",
     "serve:dev": "node --watch src/index.ts",
-    "format": "prettier --write src/**/*.ts"
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write src/**/*.ts",
+    "lint": "eslint src --config eslint.config.js"
   },
   "keywords": [],
   "author": "Aman Kumar",
