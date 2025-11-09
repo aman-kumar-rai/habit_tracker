@@ -3,6 +3,8 @@
     // File Layout
     "rootDir": ".",
     "outDir": "./dist",
+
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
       "@routers/*": ["./src/routers/*"]
